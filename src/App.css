@@ -1,0 +1,46 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  font-family: sans-serif;
+  padding: 10px;
+
+}
+
+.quoteBox{
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  box-shadow:  1px 1px 18px blue;
+
+}
+
+.quoteBox_author {
+  text-align: right;
+  margin: 15px 0;
+}
+
+.quoteBox_icon {
+  position: relative;
+  bottom: 12px;
+  left: 12px;
+  font-size: 55px;
+}
+
+.quoteBox_button{
+  font-size: 40px;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  width: 50px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px 0 auto;
+  transition: transform 200ms ease;
+
+}
